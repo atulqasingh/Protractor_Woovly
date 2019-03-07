@@ -1,0 +1,19 @@
+{
+  "name": "atul",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor conf.js"
+  },
+  "author": "Atul",
+  "license": "ISC",
+  "dependencies": {
+    "protractor": "^5.4.2",
+    "chercher-tech-jasmine-reporter": "^0.0.7",
+    "protractor-beautiful-reporter": "^1.2.7",
+    "appium": "^1.11.0",
+    "protractor-take-screenshots-on-demand": "^1.2.0"
+  },
+  "devDependencies": {},
+  "description": "Protractor Automation LOgin"
+}
