@@ -15,8 +15,10 @@ exports.config = {
       },
       params: {
         url: "https://alpha.woovly.com",
-        email: "xyz@gmail.com",
-        password: "XXXXXX",
+        email: "xyz@xep.in",
+        password: "admin",
+        google_email: "shivam.parashar@xyz.in",
+        google_password: "Pqr@123"
         
       },
     specs: ["spec/login_test.js"]
