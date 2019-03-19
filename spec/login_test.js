@@ -12,15 +12,15 @@ var data = require("../conf");
 
    });
 
-    // it('email signin', function() { 
-    //   browser.sleep(1000);
-    //   loginElements.emailLogin(data.config.params.email,data.config.params.password);
-    //   browser.sleep(5000);
-    //   expect(browser.getTitle()).toBe("atul.singh - Feed");
-    //   browser.sleep(5000);
-    //   // logoutElements.Logout();
-    //   // browser.sleep(5000);
-    // });
+    it('email signin', function() { 
+      browser.sleep(1000);
+      loginElements.emailLogin(data.config.params.email,data.config.params.password);
+      browser.sleep(5000);
+      expect(browser.getTitle()).toBe("atul.singh - Feed");
+      browser.sleep(5000);
+      logoutElements.Logout();
+      browser.sleep(5000);
+    });
     
     it('Social Profile Login like google', async()=>{
       
@@ -29,7 +29,7 @@ var data = require("../conf");
       browser.sleep(3000);
       expect(browser.getTitle()).toEqual("shivam.186 - Feed");
       browser.sleep(5000);
-      // logoutElements.Logout();
+      logoutElements.Logout();
 
     });
   });
